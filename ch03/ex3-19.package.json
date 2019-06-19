@@ -1,0 +1,9 @@
+// 예제 3.19 방명록을 위한 package.json
+
+{
+  "name": "express-guestbook",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  }
+}

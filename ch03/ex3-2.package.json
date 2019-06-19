@@ -1,0 +1,10 @@
+// 예제 3.2 --save 플래그로 Express를 설치한 후 package.json
+
+{
+  "name": "hello-world",
+  "author": "Your Name Here!",
+  "private": true,
+  "dependencies": {
+    "express": "^5.0.0"
+  }
+}
