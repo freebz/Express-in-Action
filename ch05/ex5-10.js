@@ -1,0 +1,6 @@
+// 예제 5.10 정적 파일 미들웨어 탑재하기
+
+// ...
+var photoPath = path.resolve(__dirname, "offensive-photos-folder");
+app.use("/offensive", express.static(photoPath));
+// ...
