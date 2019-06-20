@@ -1,0 +1,12 @@
+// 예제 4.2 정적 파일 애플리케이션을 위한 package.json 파일 업데이트
+
+{
+  "name": "static-file-fun",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^5.0.0"
+  }
+}

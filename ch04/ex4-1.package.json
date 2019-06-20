@@ -1,0 +1,9 @@
+// 예제 4.1 정적 파일 애플리케이션용 package.json 파일
+
+{
+  "name": "static-file-fun",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  }
+}
