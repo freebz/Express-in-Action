@@ -1,0 +1,12 @@
+// 예제 6.1 무작위 수 프로젝트를 위한 package.json
+
+{
+  "name": "random-number-api",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "express": "^5.0.0"
+  }
+}
