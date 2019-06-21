@@ -1,0 +1,12 @@
+//- 예제 7.16 user 위젯 mixin
+
+mixin user-widget(user)
+  .user-widget
+    img(src=user.profilePicture)
+    .user-name= user.name
+    .user-bio= user.bio
+
++user-widget(currentUser)
+
+- each user in userList
+  +user-widget(user)
