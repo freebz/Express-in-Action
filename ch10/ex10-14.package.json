@@ -1,0 +1,7 @@
+// 예제 10.14 Forever를 사용한 npm 시작
+
+...
+"scripts": {
+  "start": "forever app.js"
+}
+...

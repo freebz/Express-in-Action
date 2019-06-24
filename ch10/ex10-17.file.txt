@@ -1,0 +1,6 @@
+// 예제 10.17 평문으로 저장될 수 있는 악성 스크립트
+
+function stealUserData() {
+  // 여기서 나쁜 짓 수행...
+}
+stealUserData();

@@ -1,0 +1,10 @@
+<!-- 예제 10.9 CSRF 보호 추가하기 -->
+
+<h1>Transfer money</h1>
+<form method="post" action="https://mybank.biz/transfermoney">
+  <input name="_csrf" type="hidden"
+	 value="1dmkTNkhePMTB0D1GLhm">
+  <input name="recipient" value="YourUsername" type="text">
+  <input name="amount" value="1000000" type="number">
+  <input type="submit">
+</form>
