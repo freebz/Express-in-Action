@@ -1,0 +1,19 @@
+// 예제 9.12 "What's My User Agent?"에 대한 package.json
+
+{
+  "name": "whats-my-user-agent",
+  "private": true,
+  "scripts": {
+    "start": "node app",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "ejs": "^1.0.0",
+    "express": "^4.10.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.0.1",
+    "cheerio": "^0.17.0",
+    "supertest": "^0.14.0"
+  }
+}

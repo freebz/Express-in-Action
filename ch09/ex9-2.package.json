@@ -1,0 +1,12 @@
+// 예제 9.2 capitalize 함수에 대한 package.json
+
+{
+  "private": true,
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "mocha": "^2.0.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}
