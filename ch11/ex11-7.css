@@ -1,0 +1,8 @@
+/* 예제 11.7 중첩이 없는 CSS 예제 */
+
+header {
+    background-color: blue;
+}
+header nav {
+    color: yellow;
+}

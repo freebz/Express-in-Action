@@ -1,0 +1,15 @@
+// 예제 11.5 LESS의 믹스인
+
+.border-radius(@radius) {
+    -webkit-border-radius: @radius;
+       -moz-border-radius: @radius;
+        -ms-border-radius: @radius;
+	    border-radius: @radius;
+}
+
+.my-element {
+    .border-radius(5px);
+}
+.my-other-element {
+    .border-radius(10px);
+}

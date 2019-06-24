@@ -1,0 +1,9 @@
+/* 예제 11.2 예제 11.1에서 컴파일된 CSS */
+
+.logo {
+    color: #ff9900;
+    font-weight: bold;
+}
+a {
+    color: #ff9900;
+}

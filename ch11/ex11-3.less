@@ -1,0 +1,13 @@
+// 예제 11.3 색을 밝게 또는 진하게 만드는 함수 사용
+
+@link-color: #0000ff;
+
+a {
+    color: @link-color;
+}
+a:hover {
+    color: lighten(@link-color, 25%);
+}
+a:active {
+    color: darken(@link-color, 20%);
+}

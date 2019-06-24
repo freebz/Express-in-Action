@@ -1,0 +1,14 @@
+/* 예제 11.6 예제 11.5에서 컴파일한 CSS */
+
+.my-element {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+}
+.my-other-element {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    border-radius: 10px;
+}

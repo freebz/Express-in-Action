@@ -1,0 +1,8 @@
+// 예제 11.14 이들 예제에 대한 깡통 package.json
+
+{
+  "private": true,
+  "scripts": {
+    "grunt": "grunt"
+  }
+}

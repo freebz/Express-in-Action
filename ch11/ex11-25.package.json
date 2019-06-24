@@ -1,0 +1,14 @@
+// 예제 11.25 Heroku Express 앱을 위한 package.json
+
+{
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "express": "^5.0.0"
+  },
+  "engines": {
+    "node": "4.2.x"
+  }
+}

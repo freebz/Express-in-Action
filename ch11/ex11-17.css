@@ -1,0 +1,12 @@
+/* 예제 11.17 CSS로 컴파일된 예제 11.16 */
+
+article {
+    display: block;
+}
+article h1 {
+    font-size: 16pt;
+    color: #900;
+}
+article p {
+    line-height: 1.5em;
+}
