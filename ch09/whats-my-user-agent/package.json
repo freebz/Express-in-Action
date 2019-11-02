@@ -6,7 +6,7 @@
     "test": "mocha"
   },
   "dependencies": {
-    "ejs": "^1.0.0",
+    "ejs": "^2.7.1",
     "express": "^4.10.1"
   },
   "devDependencies": {
